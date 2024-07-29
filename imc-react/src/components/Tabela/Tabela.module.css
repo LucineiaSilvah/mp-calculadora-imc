@@ -1,0 +1,17 @@
+.Tabela{
+  width: 50%;
+  background: var(--bg);
+}
+.Tabela th,td{
+  padding: 1rem;
+  font-size: 1.3rem;
+  text-align: left;
+}
+.Tabela th{
+  color: var(--rosa);
+
+}
+.Tabela tr:nth-child(2n-1){
+  background: #fff;
+ 
+}

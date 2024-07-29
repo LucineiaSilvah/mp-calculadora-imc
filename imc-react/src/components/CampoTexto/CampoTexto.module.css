@@ -1,0 +1,12 @@
+.CampoTexto{
+  width: 60%;
+  padding: 1rem 0;
+  border-radius: 5px;
+  margin-bottom:3rem;
+  border: 2px solid var(--rosa);
+}
+.Etiqueta{
+  text-align: left;
+  width: 60%;
+ 
+}

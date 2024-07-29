@@ -1,0 +1,18 @@
+.Resposta{
+  width: 50%;
+  font-size: 1.3rem;
+  text-align: center;
+
+}
+.Resposta th{
+
+  border-bottom: 2px solid red;
+}
+.Resposta td{
+ padding-top: 1rem;
+  
+}
+.Resposta th,tr{
+  padding: 1rem;
+
+}
