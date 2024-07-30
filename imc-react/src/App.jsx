@@ -19,7 +19,7 @@ function App() {
   }
   const calcular = (e)=>{
     e.preventDefault()
-    const r = parseFloat(peso) / parseFloat(altura);
+    const r = parseFloat(peso) / parseFloat(altura**2);
 
     if(r < 17){
       const resultado = "Muito abaixo do peso";
