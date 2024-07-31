@@ -1,12 +1,23 @@
 .CampoTexto{
-  width: 60%;
+  width: 100%;
   padding: 1rem 0;
   border-radius: 5px;
   margin-bottom:3rem;
   border: 2px solid var(--rosa);
+  font-family:"Roboto", sans-serif;
+  font-weight: 600;
+  padding-left: 10px;
+  font-size: 1.3rem;
 }
 .Etiqueta{
   text-align: left;
-  width: 60%;
+
+  width: 100%;
  
+}
+@media screen and (min-width:0) and (max-width:768px) {
+  .CampoTexto{
+   
+    font-size: .8rem;
+  }
 }

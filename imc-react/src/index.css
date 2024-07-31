@@ -4,3 +4,13 @@
   --cinza:#505050;
 
 }
+*{
+  margin: 0;
+  padding: 0;
+}
+p{
+margin: 1rem;
+}
+body{
+  background: var(--rosa);
+}

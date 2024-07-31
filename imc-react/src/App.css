@@ -1,13 +1,22 @@
+
 .Container{
   width: 100%;
+  margin: 0 auto;
+  
   display: flex;
-  height: 100vh;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  color: var(--cinza);
+  overflow: hidden;
+  font-family:"Roboto", sans-serif;
+  font-weight: 600;
+  background: var(--bg);
+
 }
+
 .Formulario{
-  width: 80%;
+  width: 60%;
   height: 400px;
   display: flex;
   align-items: center;
@@ -19,4 +28,20 @@
 .Formulario p {
   color: #ABABAB;
   font-weight: bold;
+}
+@media screen and (min-width:0) and (max-width:768px) {
+
+  .Formulario{
+    width: 80%;
+  
+    justify-content: center;
+    font-size: 1rem;
+    
+  }
+  .Formulario p {
+    color: #ABABAB;
+    width: 160px;
+    text-align: center;
+    font-weight: bold;
+  }
 }

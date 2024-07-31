@@ -1,0 +1,18 @@
+.Rodape{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+justify-content: s;
+font-size: 1.3rem;
+font-family: "Roboto";
+font-weight: 500;
+color: var(--bg);
+margin: 5rem auto;
+
+}
+@media screen and (min-width:0) and (max-width:768px) {
+  .Rodape{
+    font-size: .8rem;
+  }
+}

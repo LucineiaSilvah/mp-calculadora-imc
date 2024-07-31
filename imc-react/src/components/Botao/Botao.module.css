@@ -3,7 +3,13 @@
   border: none;
   border-radius: 5px;
   color: var(--bg);
-  width: 200px;
+  width: 100%;
   padding: 1rem;
   font-size: 1.3rem;
+}
+@media screen and (min-width:0) and (max-width:768px) {
+  .Botao{
+  
+    font-size: 1rem;
+  }
 }

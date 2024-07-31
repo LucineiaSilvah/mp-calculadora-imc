@@ -1,9 +1,10 @@
 .Tabela{
-  width: 50%;
+  width: 60%;
   background: var(--bg);
+
 }
 .Tabela th,td{
-  padding: 1rem;
+  padding: 1rem 0;
   font-size: 1.3rem;
   text-align: left;
 }
@@ -14,4 +15,14 @@
 .Tabela tr:nth-child(2n-1){
   background: #fff;
  
+}
+@media screen and (min-width:0) and (max-width:768px) {
+  .Tabela{
+    width: 80%;
+  }
+  .Tabela th,td{
+    padding: 0.8rem 0;
+    font-size: .8rem;
+    text-align: left;
+  }
 }

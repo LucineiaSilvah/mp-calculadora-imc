@@ -2,11 +2,11 @@
 import styles from './Botao.module.css'
 
 // eslint-disable-next-line react/prop-types
-const Botao = ({children,onClick}) => {
+const Botao = ({onClick,texto}) => {
   return (
     <>
       <button className={styles.Botao} onClick={onClick}>
-      {children}
+      {texto}
       </button>
     </>
   );
